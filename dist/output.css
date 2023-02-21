@@ -513,53 +513,125 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.container {
-  width: 100%;
+.absolute {
+  position: absolute;
 }
 
-@media (min-width: 640px) {
-  .container {
-    max-width: 640px;
-  }
+.relative {
+  position: relative;
 }
 
-@media (min-width: 768px) {
-  .container {
-    max-width: 768px;
-  }
+.bottom-\[-22px\] {
+  bottom: -22px;
 }
 
-@media (min-width: 1024px) {
-  .container {
-    max-width: 1024px;
-  }
+.flex {
+  display: flex;
 }
 
-@media (min-width: 1280px) {
-  .container {
-    max-width: 1280px;
-  }
+.h-16 {
+  height: 4rem;
 }
 
-@media (min-width: 1536px) {
-  .container {
-    max-width: 1536px;
-  }
+.h-96 {
+  height: 24rem;
 }
 
 .h-\[100vh\] {
   height: 100vh;
 }
 
-.h-\[300px\] {
-  height: 300px;
+.h-6 {
+  height: 1.5rem;
 }
 
-.w-\[300px\] {
-  width: 300px;
+.h-5 {
+  height: 1.25rem;
+}
+
+.w-16 {
+  width: 4rem;
+}
+
+.w-\[100\%\] {
+  width: 100%;
+}
+
+.w-\[27rem\] {
+  width: 27rem;
+}
+
+.w-\[90\%\] {
+  width: 90%;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-evenly {
+  justify-content: space-evenly;
+}
+
+.rounded-full {
+  border-radius: 9999px;
+}
+
+.rounded-xl {
+  border-radius: 0.75rem;
 }
 
 .bg-Dark-Blue {
   --tw-bg-opacity: 1;
   background-color: hsl(218 23% 16% / var(--tw-bg-opacity));
+}
+
+.bg-Dark-Grayish-Blue {
+  --tw-bg-opacity: 1;
+  background-color: hsl(217 19% 24% / var(--tw-bg-opacity));
+}
+
+.bg-neon-green {
+  --tw-bg-opacity: 1;
+  background-color: hsl(150 100% 66% / var(--tw-bg-opacity));
+}
+
+.bg-mobile-pattern {
+  background-image: url('/images/pattern-divider-mobile.svg');
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
+
+.p-\[1\.2rem\] {
+  padding: 1.2rem;
+}
+
+.text-\[28px\] {
+  font-size: 28px;
+}
+
+.text-neon-green {
+  --tw-text-opacity: 1;
+  color: hsl(150 100% 66% / var(--tw-text-opacity));
+}
+
+.text-light-cyan {
+  --tw-text-opacity: 1;
+  color: hsl(193 38% 86% / var(--tw-text-opacity));
+}
+
+@media (min-width: 768px) {
+  .md\:h-6 {
+    height: 1.5rem;
+  }
 }
