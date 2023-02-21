@@ -43,7 +43,7 @@ html {
   -o-tab-size: 4;
      tab-size: 4;
   /* 3 */
-  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: Manrope, sans-serif;
   /* 4 */
   font-feature-settings: normal;
   /* 5 */
@@ -525,6 +525,46 @@ video {
   bottom: -22px;
 }
 
+.m-16 {
+  margin: 4rem;
+}
+
+.m-10 {
+  margin: 2.5rem;
+}
+
+.my-5 {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.my-12 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.my-10 {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.my-16 {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.mb-16 {
+  margin-bottom: 4rem;
+}
+
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
 .flex {
   display: flex;
 }
@@ -533,20 +573,16 @@ video {
   height: 4rem;
 }
 
+.h-6 {
+  height: 1.5rem;
+}
+
 .h-96 {
   height: 24rem;
 }
 
 .h-\[100vh\] {
   height: 100vh;
-}
-
-.h-6 {
-  height: 1.5rem;
-}
-
-.h-5 {
-  height: 1.25rem;
 }
 
 .w-16 {
@@ -577,8 +613,8 @@ video {
   justify-content: center;
 }
 
-.justify-evenly {
-  justify-content: space-evenly;
+.justify-between {
+  justify-content: space-between;
 }
 
 .rounded-full {
@@ -616,13 +652,35 @@ video {
   padding: 1.2rem;
 }
 
-.text-\[28px\] {
-  font-size: 28px;
+.p-4 {
+  padding: 1rem;
 }
 
-.text-neon-green {
-  --tw-text-opacity: 1;
-  color: hsl(150 100% 66% / var(--tw-text-opacity));
+.px-7 {
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
+}
+
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-\[25px\] {
+  font-size: 25px;
+}
+
+.font-extrabold {
+  font-weight: 800;
 }
 
 .text-light-cyan {
@@ -630,8 +688,7 @@ video {
   color: hsl(193 38% 86% / var(--tw-text-opacity));
 }
 
-@media (min-width: 768px) {
-  .md\:h-6 {
-    height: 1.5rem;
-  }
+.text-neon-green {
+  --tw-text-opacity: 1;
+  color: hsl(150 100% 66% / var(--tw-text-opacity));
 }

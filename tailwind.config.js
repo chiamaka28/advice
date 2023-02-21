@@ -13,7 +13,10 @@ module.exports = {
     backgroundImage: {
       'mobile-pattern': "url('/images/pattern-divider-mobile.svg')",
       'hero-pattern': "url('/images/pattern-divider-desktop.svg')"
-    }
+    },
+    fontFamily: {
+      sans: ['Manrope', 'sans-serif'],
+    },
   },
   },
   plugins: [],

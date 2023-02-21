@@ -8,6 +8,9 @@
   
   <title>Frontend Mentor | Advice generator app</title>
   <link href="/dist/output.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap" rel="stylesheet">
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
@@ -18,14 +21,14 @@
 <body class="h-[100vh] w-[100%] ">
 <div class=" h-[100vh] w-[100%]  bg-Dark-Blue flex justify-center items-center flex-col">
   
-    <div class="quote-container w-[27rem] h-96 bg-Dark-Grayish-Blue rounded-xl flex  items-center justify-evenly flex-col relative">
-      <h3 class="text-neon-green">Advice #<!-- Advice ID goes here --></h3>
-      <p class="text-[28px] text-light-cyan">"<!-- Advice text goes here -->"</p>
-      <div class="bg-mobile-pattern md:desktop-pattern h-6 w-[90%] bg-no-repeat"></div>
-      <div class="w-16 h-16 bg-neon-green flex justify-center items-center absolute bottom-[-22px] rounded-full p-[1.2rem]"><img src="/images/icon-dice.svg" alt=""></div>
+    <div class="quote-container w-[27rem] h-96  bg-Dark-Grayish-Blue rounded-xl flex  items-center justify-between  flex-col relative">
+      <h3 class="text-neon-green mt-10">Advice <span class="quote-id">#<!-- Advice ID goes here --></span></h3>
+      <p class="text-[25px] text-light-cyan text-center font-extrabold px-5 " id="quote">"<!-- Advice text goes here -->"</p>
+      <div class="bg-mobile-pattern md:desktop-pattern h-6 w-[90%] bg-no-repeat mb-10"></div>
+      <div class="dice w-16 h-16 bg-neon-green flex justify-center items-center absolute bottom-[-22px] rounded-full p-[1.2rem]"><img src="/images/icon-dice.svg" alt=""></div>
     </div>
  
 </div>
-  <script src=""></script>
+  <script src="/script/script.js"></script>
 </body>
 </html>
