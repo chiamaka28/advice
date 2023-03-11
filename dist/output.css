@@ -525,36 +525,18 @@ video {
   bottom: -22px;
 }
 
-.m-16 {
-  margin: 4rem;
+.m-auto {
+  margin: auto;
 }
 
-.m-10 {
-  margin: 2.5rem;
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.my-5 {
-  margin-top: 1.25rem;
-  margin-bottom: 1.25rem;
-}
-
-.my-12 {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-}
-
-.my-10 {
-  margin-top: 2.5rem;
-  margin-bottom: 2.5rem;
-}
-
-.my-16 {
-  margin-top: 4rem;
-  margin-bottom: 4rem;
-}
-
-.mb-16 {
-  margin-bottom: 4rem;
+.mx-\[10px\] {
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .mb-10 {
@@ -593,12 +575,32 @@ video {
   width: 100%;
 }
 
-.w-\[27rem\] {
-  width: 27rem;
+.w-\[300px\] {
+  width: 300px;
 }
 
 .w-\[90\%\] {
   width: 90%;
+}
+
+.w-\[\] {
+  width: ;
+}
+
+.w-\[250\] {
+  width: 250;
+}
+
+.w-\[250px\] {
+  width: 250px;
+}
+
+.w-\[100\] {
+  width: 100;
+}
+
+.w-\[0\%\] {
+  width: 0%;
 }
 
 .flex-col {
@@ -644,6 +646,10 @@ video {
   background-image: url('/images/pattern-divider-mobile.svg');
 }
 
+.bg-contain {
+  background-size: contain;
+}
+
 .bg-no-repeat {
   background-repeat: no-repeat;
 }
@@ -652,23 +658,19 @@ video {
   padding: 1.2rem;
 }
 
-.p-4 {
-  padding: 1rem;
-}
-
-.px-7 {
-  padding-left: 1.75rem;
-  padding-right: 1.75rem;
-}
-
 .px-5 {
   padding-left: 1.25rem;
   padding-right: 1.25rem;
 }
 
-.px-6 {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.px-\[10px\] {
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .text-center {
@@ -691,4 +693,10 @@ video {
 .text-neon-green {
   --tw-text-opacity: 1;
   color: hsl(150 100% 66% / var(--tw-text-opacity));
+}
+
+@media (min-width: 1024px) {
+  .lg\:w-\[27rem\] {
+    width: 27rem;
+  }
 }
