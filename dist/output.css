@@ -566,20 +566,12 @@ video {
   width: 100%;
 }
 
-.w-\[340px\] {
-  width: 340px;
+.w-\[80\%\] {
+  width: 80%;
 }
 
 .w-\[90\%\] {
   width: 90%;
-}
-
-.w-\[30px\] {
-  width: 30px;
-}
-
-.w-\[330px\] {
-  width: 330px;
 }
 
 .flex-col {
@@ -664,8 +656,8 @@ video {
   color: hsl(150 100% 66% / var(--tw-text-opacity));
 }
 
-@media (min-width: 1024px) {
-  .lg\:w-\[27rem\] {
+@media (min-width: 470px) {
+  .md\:w-\[27rem\] {
     width: 27rem;
   }
 }

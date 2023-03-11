@@ -17,6 +17,9 @@ module.exports = {
     fontFamily: {
       sans: ['Manrope', 'sans-serif'],
     },
+    screens: {
+      'md': '470px',
+    },
   },
   },
   plugins: [],
